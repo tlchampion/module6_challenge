@@ -1,0 +1,10 @@
+name: dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - anaconda
+  - hvplot
+  - geoviews
+
+

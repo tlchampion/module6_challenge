@@ -1,6 +1,6 @@
 # Module 6 Challenge
 
-This is the Module 6 Challenge for the FinTech Bootcamp.
+This is the Module 6 Challenge for the FinTech Bootcamp. This challenge's topic is data visualization and uses data related to rental housing in San Francisco. 
 
 
 
@@ -11,7 +11,12 @@ This is the Module 6 Challenge for the FinTech Bootcamp.
 
 All code is contained within the included jupyter lab notebook. 
 
-Python version 3.9.15 was used to complete this challenge. 
+Python version 3.9.15 was used to complete this challenge and the following additional libraries were utilized:
+* pandas
+* hvplot
+* geoviews
+
+
 
 ---
 
@@ -25,12 +30,13 @@ conda env create -f environment.yml
 ```
 
 
-Alternatively, an existing environment can be used in which case both Jupyter Lab and python-dotenv must be installed along with watermark. If now already done, both may be installed using pip
+Alternatively, an existing environment can be used in which case Jupyter Lab, pandas, hvplot and geoviews must be installed. If not already done, they may be installed using pip
 
 ```
 pip install jupyterlab
-pip install python-dotenv
-pip install watermark
+pip install pandas
+pip install hvplot
+pip install geoviews
 
 ```
 
